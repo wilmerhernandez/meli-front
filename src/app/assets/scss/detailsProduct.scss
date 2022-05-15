@@ -1,0 +1,40 @@
+.details{
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    &__product{
+        display: flex;
+    }
+    &__productimg{
+        width: 50%;
+        margin-right: 115px;
+    }
+    &__productimg img{
+        width: 100%;
+    }
+    &__productDet{
+        float: right;
+    }
+}
+.descript{
+    margin-bottom: 50px;
+    background-color: white;
+}
+.myButton {
+	box-shadow:inset 0px -50px 0px 0px #198cff;
+	background:linear-gradient(to bottom, #458db3 5%, #0061a7 100%);
+	background-color:#458db3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+

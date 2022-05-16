@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import detailService from "../../services/detailService";
-import { GenericResponse } from "../../services/httpService";
-
+import { GenericResponse } from "../../interfaces/interface";
+/**
+ * app render product details
+ * instace useState with GenericResponse type
+ * @returns GenericResponse
+ */
 function Details() {
   const searchParams = useParams();
   const [product, setProduct] = useState<GenericResponse>();

@@ -4,7 +4,11 @@ import "./app/assets/app.scss";
 import Search from "./app/components/search/Search";
 import ListProduct from "./app/components/listProduct/ListProduct";
 import Details from "./app/components/details/Details";
-
+/**
+ * main app
+ * add router path
+ * @returns 
+ */
 function App() {
   return (
     <div className="app">

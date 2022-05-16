@@ -10,6 +10,7 @@ import httpService from "./httpService";
  */
 // @ts-ignore
 export const search = async (q: string) => {
+  //const response = mockSearch;
   const response = await httpService.execute(config['dev'].meli.domain+config['dev'].port,config['dev'].meli.paths.search+q);
   return response;
 };

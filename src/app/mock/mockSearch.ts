@@ -15,6 +15,7 @@ export default {
       picture: "http://http2.mlstatic.com/D_811530-MCO48197119834_112021-O.jpg",
       condition: "new",
       free_shipping: true,
+      address: "Valle Del Cauca",
     },
     {
       id: "MCO836369023",
@@ -27,6 +28,7 @@ export default {
       picture: "http://http2.mlstatic.com/D_669676-MCO48269705134_112021-O.jpg",
       condition: "new",
       free_shipping: false,
+      address: "Bogotá D.C.",
     },
     {
       id: "MCO601748622",
@@ -39,6 +41,7 @@ export default {
       picture: "http://http2.mlstatic.com/D_673485-MCO44582922524_012021-O.jpg",
       condition: "new",
       free_shipping: true,
+      address: "Valle Del Cauca",
     },
     {
       id: "MCO447588687",
@@ -51,9 +54,8 @@ export default {
       picture: "http://http2.mlstatic.com/D_868381-MCO29644254723_032019-I.jpg",
       condition: "new",
       free_shipping: false,
+      address: "Bogotá D.C.",
     },
   ],
-  categories: [
-    "Hogar y Muebles"
-  ],
+  categories: ["Hogar y Muebles"],
 };

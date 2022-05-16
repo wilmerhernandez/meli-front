@@ -8,6 +8,7 @@ import httpService from "./httpService";
  * @returns GenericResponse
  */
 export const detailService = async (q: string) => {
+  //const response = mockDetails;
   const response = await httpService.execute(config['dev'].meli.domain+config['dev'].port,config['dev'].meli.paths.items+q);
   return response;
 };

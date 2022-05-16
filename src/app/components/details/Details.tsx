@@ -36,7 +36,7 @@ function Details() {
                 vendidos
               </p>
               <h4>{product.item?.title}</h4>
-              <h2> {`$ ${product.item?.price.amount}`}</h2>
+              <h1> {`$ ${product.item?.price.amount}`}</h1>
               <a href="#" className="myButton">
                 Comprar
               </a>
